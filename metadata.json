@@ -1,0 +1,5 @@
+{
+  "name": "RailReserve - Train Reservation System",
+  "description": "A comprehensive train booking platform with real-time seat availability, PNR generation, and admin management.",
+  "requestFramePermissions": []
+}

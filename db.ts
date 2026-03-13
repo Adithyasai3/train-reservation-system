@@ -74,7 +74,7 @@ export function initDb() {
     db.prepare('INSERT INTO users (name, email, password, role) VALUES (?, ?, ?, ?)').run(
       'Admin User',
       'admin@railreserve.com',
-      '$2a$10$X7vH8.8.8.8.8.8.8.8.8.8.8.8.8.8.8.8.8.8.8.8.8.8.8.8.8', // password: password123
+      '$2b$10$ba8ZCnz6WN27ovxP0.v88uyT8bXJ2cqGCiBHjuFG7GqB5cqp5v2b2', // password: password123
       'admin'
     );
   }

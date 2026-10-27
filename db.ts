@@ -1,7 +1,8 @@
 import Database from 'better-sqlite3';
 import path from 'path';
 
-const db = new Database('rail_reserve.db');
+// DB_PATH lets tests run against an isolated in-memory database (":memory:")
+const db = new Database(process.env.DB_PATH || 'rail_reserve.db');
 
 // Initialize database tables
 export function initDb() {
